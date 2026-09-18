@@ -7,14 +7,13 @@
 - [x] リポジトリが公開（Public）で、Raw URLが認証なしで取得できる
       確認方法: `curl -s -o /dev/null -w "%{http_code}" <Raw URL>` が200を返すこと
 - [x] `data/latest.json` のRaw URLがSKILL.md・LISTING.mdに記載されている
-- [ ] `GOOGLE_SERVICE_ACCOUNT_JSON` に有効なサービスアカウントJSONが登録されている
-      現状: リポジトリSecretsには登録済みだが、値が不正な形式でJSONとしてパースできず、
-      GitHub Actions実行時に `Extra data: line 1 column 2` エラーで失敗することを確認済み。
-      Google Cloud Consoleで発行した正しいサービスアカウントJSONを再登録する必要がある。
-- [ ] 本番Google Sheetsが、上記サービスアカウントのメールアドレスに「閲覧者」共有されている
-      （サービスアカウントJSONが未確定のため、共有先メールアドレスも未確定）
-- [ ] `gh workflow run sync.yml` を実行し、実データで同期→集計→commitまで一気通貫で成功することを確認する
-      現状: 空のシート状態でのテスト実行はSecrets不正により失敗（上記と同じ原因）。原因解消後に再実行して確認する。
+- [x] `GOOGLE_SERVICE_ACCOUNT_JSON` に有効なサービスアカウントJSONが登録されている
+      経緯: 初回登録時はKeychain項目がhex(16進)エンコードされたまま登録されてしまいパース不能だった。
+      hexデコードして正しいJSON（`note-market-research@claude-code-505203.iam.gserviceaccount.com`）を再登録し解消済み。
+- [x] 本番Google Sheetsが、上記サービスアカウントのメールアドレスに「閲覧者」共有されている（設定済み）
+- [x] `gh workflow run sync.yml` を実行し、実データで同期→集計→commitまで一気通貫で成功することを確認する
+      2026-09-18 実行分で成功を確認（run id: 35307028381）。本番シートは現在0件のため、
+      同梱モックデータ（12件）を重複除去マージした状態で `data/latest.json` を生成、差分なしのためcommitはスキップ。
 - [x] 実データ0件（見出し行のみ）でも `build_dataset.py` がクラッシュせず、空配列のJSONを生成することをローカルで確認済み
 - [x] Sheets同期・集計処理が失敗した場合に既存の `data/latest.json` を上書きしないことを確認済み（ローカル・GitHub Actions実行の両方で確認）
 - [x] `source_url` による重複除去ロジックが動作することを単体テストで確認済み
@@ -28,9 +27,9 @@
 - [ ] コンセンサス集計・投資家ランキング・強気/弱気人数比較など、要求仕様で禁止された機能が実装に含まれていないことの最終目視確認
       → `scripts/build_dataset.py` を確認した限り該当ロジックなし（件数集計と新規/継続/消滅の論点比較のみ）
 
-## 既知の残タスク（このチェックリスト作成時点）
+## 既知の残タスク（更新: 2026-09-18）
 
-1. 正しい `GOOGLE_SERVICE_ACCOUNT_JSON` の取得・再登録（ユーザー側でGoogle Cloud Consoleから発行）
-2. 上記サービスアカウントを本番Google Sheetsに共有
-3. 実データでのGitHub Actions実行成功の確認
-4. Capafy提出フォーム自体でのSKILL.md/LISTING.mdの表示確認
+1. 本番Google Sheetsに実データ（Grok等による投稿収集結果）を入れる。現状は見出し行のみで0件。
+2. 本番シートに実データが入り次第、リポジトリに残っている同梱モックデータ（`data/raw_posts.json`・`data/latest.json`の12件）をクリアするか判断する。現状の重複除去マージ仕様では、実データが入ってもモックの12件は`source_url`が異なるため消えずに残り続ける。デモ用として残すか、本番切替時に削除するかはユーザー判断。
+3. Capafy提出フォーム自体でのSKILL.md/LISTING.mdの表示確認（未確認）
+4. Capafyが `data/latest.json` のRaw URLをどう取得する想定か（ポーリング/Webhook）の仕様確認（未確認）
