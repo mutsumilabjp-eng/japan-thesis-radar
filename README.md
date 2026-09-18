@@ -39,9 +39,11 @@ python3 -m http.server 8765
 
 ブラウザで `http://localhost:8765/app/index.html` を開いてください。
 
-## Google Sheetsの列仕様
+## Google Sheetsの列仕様（固定スキーマ・1行1投稿）
 
-以下の11列を持つシートを用意してください（列の順序は問いません、ヘッダー名で読み取ります）。
+本番シート: https://docs.google.com/spreadsheets/d/1rN-3ZqLWvd-E0kRN15vYAuCyaUGANmHWL4HjvwyMIqc/edit （スプレッドシートID: `1rN-3ZqLWvd-E0kRN15vYAuCyaUGANmHWL4HjvwyMIqc`）
+
+以下の11列を持つシートを用意してください（列の順序は問いません、ヘッダー名で読み取ります）。**1行＝1投稿**の固定スキーマです。Grok等が追記する場合も、この形式のまま2行目以降に1件ずつ追加してください（見出し行の変更・列の追加削除・セル結合はしないでください）。
 
 | 列名 | 内容 |
 |---|---|
@@ -52,19 +54,25 @@ python3 -m http.server 8765
 | company | 会社名 |
 | post_created_at | 投稿日時（ISO8601推奨、例: `2026-09-15T10:00:00+09:00`） |
 | post_text | 投稿本文（社内保管用。画面には表示しません） |
-| source_url | 元投稿のURL（重複除去のキーになります） |
+| source_url | 元投稿のURL（重複除去のキーになります。必須） |
 | topic | 論点（例: AI需要、中国規制、受注回復など） |
 | stance | `追い風` / `懸念` / `事実言及` / `判断不明` のいずれか |
 | summary | 短い要約（画面に表示されます） |
 
+Grok向け追記ルール：
+- 1回の追記＝1行。複数投稿をまとめて1セルに書かない。
+- `source_url` が空の行は同期時に無視されるため、必ず埋める。
+- `stance` は上記4値以外を書いた場合、自動的に「判断不明」として扱われる。
+- 行数がゼロ（見出し行のみ）でも同期・集計処理は正常に完了し、`data/latest.json` は空配列で生成される（動作確認済み）。
+
 ## Google Sheets接続方法
 
 1. Google Cloud ConsoleでサービスアカウントJSONキーを発行する。
-2. 対象のスプレッドシートを、サービスアカウントのメールアドレス（`xxx@xxx.iam.gserviceaccount.com`）に「閲覧者」として共有する。
+2. 上記の本番シートを、サービスアカウントのメールアドレス（`xxx@xxx.iam.gserviceaccount.com`）に「閲覧者」として共有する。
 3. `.env.example` を参考に環境変数を設定する：
    - `GOOGLE_SERVICE_ACCOUNT_JSON` … サービスアカウントJSONの中身をそのまま1つの環境変数に入れる
-   - `GOOGLE_SHEETS_SPREADSHEET_ID` … スプレッドシートURLの `/d/` と `/edit` の間の文字列
-   - `GOOGLE_SHEETS_WORKSHEET_NAME` … シート名（省略時は1枚目のシート）
+   - `GOOGLE_SHEETS_SPREADSHEET_ID` … `1rN-3ZqLWvd-E0kRN15vYAuCyaUGANmHWL4HjvwyMIqc`（本番シートのID。スプレッドシートURLの `/d/` と `/edit` の間の文字列）
+   - `GOOGLE_SHEETS_WORKSHEET_NAME` … シート名（省略時は1枚目のシートを自動で使うため、通常は設定不要）
 4. ローカルで実行する場合:
 
 ```bash
@@ -87,9 +95,17 @@ Sheets取得や集計処理でエラーが起きた場合、既存の `data/raw_
 
 リポジトリの Settings > Secrets and variables > Actions に以下を登録してください。
 
-- `GOOGLE_SERVICE_ACCOUNT_JSON`
-- `GOOGLE_SHEETS_SPREADSHEET_ID`
-- `GOOGLE_SHEETS_WORKSHEET_NAME`（任意）
+- `GOOGLE_SERVICE_ACCOUNT_JSON`（必須。サービスアカウントJSONの中身をそのまま登録）
+- `GOOGLE_SHEETS_SPREADSHEET_ID`（必須。設定済み: `1rN-3ZqLWvd-E0kRN15vYAuCyaUGANmHWL4HjvwyMIqc`）
+- `GOOGLE_SHEETS_WORKSHEET_NAME`（任意。未設定なら1枚目のシートを自動使用）
+
+登録コマンド例（値を画面に出さずに登録する場合）:
+
+```bash
+gh secret set GOOGLE_SERVICE_ACCOUNT_JSON --repo mutsumilabjp-eng/japan-thesis-radar < service_account.json
+```
+
+手動で同期を試したい場合は `gh workflow run sync.yml --repo mutsumilabjp-eng/japan-thesis-radar` で即時実行できます。
 
 ## 免責事項
 

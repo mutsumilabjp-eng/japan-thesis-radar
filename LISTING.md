@@ -26,6 +26,8 @@
 
 - 入力：Google Sheets（投稿データ）
 - 出力：Web UI（銘柄一覧・銘柄詳細・論点一覧・投稿者別・新規論点・論点変化）
+- データ（Raw JSON）: https://raw.githubusercontent.com/mutsumilabjp-eng/japan-thesis-radar/master/data/latest.json
+- リポジトリ: https://github.com/mutsumilabjp-eng/japan-thesis-radar
 
 ## 免責事項
 

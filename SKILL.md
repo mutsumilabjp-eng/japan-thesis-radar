@@ -25,7 +25,9 @@
 ## 出力
 
 - `data/latest.json`：Web UIが読み込む集計済みデータ（銘柄一覧、論点一覧、投稿者一覧、投稿レコード、論点変化）
+  - Raw URL: https://raw.githubusercontent.com/mutsumilabjp-eng/japan-thesis-radar/master/data/latest.json
 - `app/index.html`：日本語UI（銘柄一覧／銘柄詳細／論点一覧／投稿者別／新規論点／論点変化）
+- リポジトリ: https://github.com/mutsumilabjp-eng/japan-thesis-radar
 
 ## 使い方
 
