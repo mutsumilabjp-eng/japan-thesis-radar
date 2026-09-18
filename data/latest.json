@@ -1,0 +1,359 @@
+{
+  "updated_at": "2026-09-18T01:22:47.243821+00:00",
+  "window_days": 30,
+  "tickers": [
+    {
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "topics": [
+        {
+          "topic": "中国需要減速",
+          "count": 2
+        },
+        {
+          "topic": "AI需要",
+          "count": 1
+        },
+        {
+          "topic": "メモリ投資回復",
+          "count": 1
+        },
+        {
+          "topic": "受注回復",
+          "count": 1
+        },
+        {
+          "topic": "バリュエーション",
+          "count": 1
+        },
+        {
+          "topic": "中国規制",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "6857",
+      "company": "アドバンテスト",
+      "topics": [
+        {
+          "topic": "AI需要",
+          "count": 1
+        },
+        {
+          "topic": "バリュエーション",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "7203",
+      "company": "トヨタ自動車",
+      "topics": [
+        {
+          "topic": "北米販売好調",
+          "count": 1
+        },
+        {
+          "topic": "為替感応度",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "ticker": "9984",
+      "company": "ソフトバンクグループ",
+      "topics": [
+        {
+          "topic": "NAVディスカウント",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "topic": "AI需要",
+      "tickers": [
+        "6857",
+        "8035"
+      ],
+      "total_count": 2
+    },
+    {
+      "topic": "バリュエーション",
+      "tickers": [
+        "6857",
+        "8035"
+      ],
+      "total_count": 2
+    },
+    {
+      "topic": "中国需要減速",
+      "tickers": [
+        "8035"
+      ],
+      "total_count": 2
+    },
+    {
+      "topic": "メモリ投資回復",
+      "tickers": [
+        "8035"
+      ],
+      "total_count": 1
+    },
+    {
+      "topic": "北米販売好調",
+      "tickers": [
+        "7203"
+      ],
+      "total_count": 1
+    },
+    {
+      "topic": "受注回復",
+      "tickers": [
+        "8035"
+      ],
+      "total_count": 1
+    },
+    {
+      "topic": "NAVディスカウント",
+      "tickers": [
+        "9984"
+      ],
+      "total_count": 1
+    },
+    {
+      "topic": "中国規制",
+      "tickers": [
+        "8035"
+      ],
+      "total_count": 1
+    },
+    {
+      "topic": "為替感応度",
+      "tickers": [
+        "7203"
+      ],
+      "total_count": 1
+    }
+  ],
+  "authors": [
+    {
+      "handle": "@macro_desk",
+      "display_name": "マクロデスク",
+      "post_count": 3
+    },
+    {
+      "handle": "@chip_watcher_jp",
+      "display_name": "半導体ウォッチャー",
+      "post_count": 2
+    },
+    {
+      "handle": "@auto_sector_jp",
+      "display_name": "自動車セクターJP",
+      "post_count": 2
+    },
+    {
+      "handle": "@china_policy_watch",
+      "display_name": "中国政策ウォッチ",
+      "post_count": 2
+    },
+    {
+      "handle": "@ate_analyst",
+      "display_name": "ATEアナリスト",
+      "post_count": 1
+    },
+    {
+      "handle": "@semiconjp",
+      "display_name": "セミコンJP",
+      "post_count": 1
+    },
+    {
+      "handle": "@sbg_watcher",
+      "display_name": "SBGウォッチャー",
+      "post_count": 1
+    }
+  ],
+  "records": [
+    {
+      "handle": "@chip_watcher_jp",
+      "display_name": "半導体ウォッチャー",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-17T21:30:00+09:00",
+      "source_url": "https://x.com/chip_watcher_jp/status/1001",
+      "topic": "AI需要",
+      "stance": "追い風",
+      "summary": "決算資料でAI向け先端ロジック需要への言及が強く、設備投資計画の上方修正余地に言及。"
+    },
+    {
+      "handle": "@ate_analyst",
+      "display_name": "ATEアナリスト",
+      "ticker": "6857",
+      "company": "アドバンテスト",
+      "post_created_at": "2026-09-16T09:30:00+09:00",
+      "source_url": "https://x.com/ate_analyst/status/2001",
+      "topic": "AI需要",
+      "stance": "追い風",
+      "summary": "AI半導体テスタ需要の強さから受注環境は良好との見方を紹介。"
+    },
+    {
+      "handle": "@semiconjp",
+      "display_name": "セミコンJP",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-15T10:00:00+09:00",
+      "source_url": "https://x.com/semiconjp/status/1002",
+      "topic": "メモリ投資回復",
+      "stance": "追い風",
+      "summary": "メモリメーカー各社の投資計画上振れがTELにも追い風になる可能性を指摘。"
+    },
+    {
+      "handle": "@auto_sector_jp",
+      "display_name": "自動車セクターJP",
+      "ticker": "7203",
+      "company": "トヨタ自動車",
+      "post_created_at": "2026-09-14T17:00:00+09:00",
+      "source_url": "https://x.com/auto_sector_jp/status/4001",
+      "topic": "北米販売好調",
+      "stance": "追い風",
+      "summary": "北米販売台数が市場予想を上回り、ハイブリッド比率の高さが寄与しているとの分析を紹介。"
+    },
+    {
+      "handle": "@chip_watcher_jp",
+      "display_name": "半導体ウォッチャー",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-13T18:00:00+09:00",
+      "source_url": "https://x.com/chip_watcher_jp/status/1003",
+      "topic": "受注回復",
+      "stance": "追い風",
+      "summary": "受注残の消化ペースが想定より速く、来期のバックログ懸念がやや後退。"
+    },
+    {
+      "handle": "@macro_desk",
+      "display_name": "マクロデスク",
+      "ticker": "6857",
+      "company": "アドバンテスト",
+      "post_created_at": "2026-09-12T14:00:00+09:00",
+      "source_url": "https://x.com/macro_desk/status/2002",
+      "topic": "バリュエーション",
+      "stance": "懸念",
+      "summary": "株価が強い業績期待を織り込み済みで、割高感を指摘する声を紹介。"
+    },
+    {
+      "handle": "@macro_desk",
+      "display_name": "マクロデスク",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-11T12:00:00+09:00",
+      "source_url": "https://x.com/macro_desk/status/1004",
+      "topic": "バリュエーション",
+      "stance": "懸念",
+      "summary": "現在のPERは過去5年レンジ上限近辺で、短期的な調整リスクを指摘。"
+    },
+    {
+      "handle": "@sbg_watcher",
+      "display_name": "SBGウォッチャー",
+      "ticker": "9984",
+      "company": "ソフトバンクグループ",
+      "post_created_at": "2026-09-09T13:00:00+09:00",
+      "source_url": "https://x.com/sbg_watcher/status/3001",
+      "topic": "NAVディスカウント",
+      "stance": "追い風",
+      "summary": "保有株含み益拡大によるNAVディスカウント縮小の試算を紹介。"
+    },
+    {
+      "handle": "@china_policy_watch",
+      "display_name": "中国政策ウォッチ",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-08T15:00:00+09:00",
+      "source_url": "https://x.com/china_policy_watch/status/1005",
+      "topic": "中国規制",
+      "stance": "懸念",
+      "summary": "対中輸出規制の追加措置検討との報道を受け、中国向け売上比率への注視を指摘。"
+    },
+    {
+      "handle": "@auto_sector_jp",
+      "display_name": "自動車セクターJP",
+      "ticker": "7203",
+      "company": "トヨタ自動車",
+      "post_created_at": "2026-09-07T10:00:00+09:00",
+      "source_url": "https://x.com/auto_sector_jp/status/4002",
+      "topic": "為替感応度",
+      "stance": "事実言及",
+      "summary": "円高方向への為替変動時の減益インパクトを試算したスレッドを紹介。"
+    },
+    {
+      "handle": "@macro_desk",
+      "display_name": "マクロデスク",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-06T11:00:00+09:00",
+      "source_url": "https://x.com/macro_desk/status/1006",
+      "topic": "中国需要減速",
+      "stance": "懸念",
+      "summary": "中国国内の設備投資需要の弱さが下期の受注ペースに影響する可能性を指摘。"
+    },
+    {
+      "handle": "@china_policy_watch",
+      "display_name": "中国政策ウォッチ",
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "post_created_at": "2026-09-04T16:00:00+09:00",
+      "source_url": "https://x.com/china_policy_watch/status/1007",
+      "topic": "中国需要減速",
+      "stance": "事実言及",
+      "summary": "現地代理店ヒアリングで中国向け引き合いの鈍化を確認したとの声を紹介。"
+    }
+  ],
+  "topic_changes": [
+    {
+      "ticker": "8035",
+      "company": "東京エレクトロン",
+      "new_topics": [
+        "AI需要",
+        "バリュエーション",
+        "メモリ投資回復",
+        "受注回復"
+      ],
+      "continuing_topics": [],
+      "disappeared_topics": [
+        "中国規制",
+        "中国需要減速"
+      ]
+    },
+    {
+      "ticker": "6857",
+      "company": "アドバンテスト",
+      "new_topics": [
+        "AI需要",
+        "バリュエーション"
+      ],
+      "continuing_topics": [],
+      "disappeared_topics": []
+    },
+    {
+      "ticker": "7203",
+      "company": "トヨタ自動車",
+      "new_topics": [
+        "北米販売好調"
+      ],
+      "continuing_topics": [],
+      "disappeared_topics": [
+        "為替感応度"
+      ]
+    },
+    {
+      "ticker": "9984",
+      "company": "ソフトバンクグループ",
+      "new_topics": [],
+      "continuing_topics": [],
+      "disappeared_topics": [
+        "NAVディスカウント"
+      ]
+    }
+  ]
+}
