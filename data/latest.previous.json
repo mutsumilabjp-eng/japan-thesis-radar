@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T02:34:34.339337+00:00",
+  "updated_at": "2026-09-21T08:24:46.161108+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -347,11 +347,11 @@
     {
       "ticker": "7203",
       "company": "トヨタ自動車",
-      "new_topics": [
-        "北米販売好調"
-      ],
+      "new_topics": [],
       "continuing_topics": [],
-      "disappeared_topics": []
+      "disappeared_topics": [
+        "北米販売好調"
+      ]
     }
   ]
 }
