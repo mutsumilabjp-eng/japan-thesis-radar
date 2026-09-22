@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T15:31:05.329134+00:00",
+  "updated_at": "2026-09-21T21:28:49.139849+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -336,21 +336,21 @@
       ]
     },
     {
-      "ticker": "7203",
-      "company": "トヨタ自動車",
-      "new_topics": [],
-      "continuing_topics": [],
-      "disappeared_topics": [
-        "北米販売好調"
-      ]
-    },
-    {
       "ticker": "9984",
       "company": "ソフトバンクグループ",
       "new_topics": [],
       "continuing_topics": [],
       "disappeared_topics": [
         "NAVディスカウント"
+      ]
+    },
+    {
+      "ticker": "7203",
+      "company": "トヨタ自動車",
+      "new_topics": [],
+      "continuing_topics": [],
+      "disappeared_topics": [
+        "北米販売好調"
       ]
     }
   ]
