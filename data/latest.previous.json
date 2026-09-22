@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T02:36:40.516414+00:00",
+  "updated_at": "2026-09-22T08:06:06.464796+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -320,7 +320,6 @@
       "disappeared_topics": [
         "バリュエーション",
         "メモリ投資回復",
-        "中国規制",
         "受注回復"
       ]
     },
@@ -336,21 +335,21 @@
       ]
     },
     {
-      "ticker": "7203",
-      "company": "トヨタ自動車",
-      "new_topics": [],
-      "continuing_topics": [],
-      "disappeared_topics": [
-        "北米販売好調"
-      ]
-    },
-    {
       "ticker": "9984",
       "company": "ソフトバンクグループ",
       "new_topics": [],
       "continuing_topics": [],
       "disappeared_topics": [
         "NAVディスカウント"
+      ]
+    },
+    {
+      "ticker": "7203",
+      "company": "トヨタ自動車",
+      "new_topics": [],
+      "continuing_topics": [],
+      "disappeared_topics": [
+        "北米販売好調"
       ]
     }
   ]
