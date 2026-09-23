@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T23:23:41.508567+00:00",
+  "updated_at": "2026-09-23T02:37:04.751150+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -326,11 +326,10 @@
     {
       "ticker": "6857",
       "company": "アドバンテスト",
-      "new_topics": [
-        "AI需要"
-      ],
+      "new_topics": [],
       "continuing_topics": [],
       "disappeared_topics": [
+        "AI需要",
         "バリュエーション"
       ]
     },

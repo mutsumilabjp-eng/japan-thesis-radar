@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T02:37:04.751150+00:00",
+  "updated_at": "2026-09-23T08:08:26.879205+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -331,15 +331,6 @@
       "disappeared_topics": [
         "AI需要",
         "バリュエーション"
-      ]
-    },
-    {
-      "ticker": "9984",
-      "company": "ソフトバンクグループ",
-      "new_topics": [],
-      "continuing_topics": [],
-      "disappeared_topics": [
-        "NAVディスカウント"
       ]
     },
     {
