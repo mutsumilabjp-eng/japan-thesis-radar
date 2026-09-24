@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:59:33.889547+00:00",
+  "updated_at": "2026-09-24T13:55:50.162206+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -313,11 +313,10 @@
     {
       "ticker": "8035",
       "company": "東京エレクトロン",
-      "new_topics": [
-        "AI需要"
-      ],
+      "new_topics": [],
       "continuing_topics": [],
       "disappeared_topics": [
+        "AI需要",
         "バリュエーション",
         "メモリ投資回復",
         "受注回復"
