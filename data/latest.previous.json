@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:43:16.360349+00:00",
+  "updated_at": "2026-09-25T08:23:09.702112+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -317,7 +317,6 @@
       "continuing_topics": [],
       "disappeared_topics": [
         "AI需要",
-        "バリュエーション",
         "メモリ投資回復",
         "受注回復"
       ]
