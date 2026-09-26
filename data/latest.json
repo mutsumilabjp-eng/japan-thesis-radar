@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T02:46:00.265091+00:00",
+  "updated_at": "2026-09-26T08:10:00.401800+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -322,22 +322,21 @@
       ]
     },
     {
-      "ticker": "6857",
-      "company": "アドバンテスト",
-      "new_topics": [],
-      "continuing_topics": [],
-      "disappeared_topics": [
-        "AI需要",
-        "バリュエーション"
-      ]
-    },
-    {
       "ticker": "7203",
       "company": "トヨタ自動車",
       "new_topics": [],
       "continuing_topics": [],
       "disappeared_topics": [
         "北米販売好調"
+      ]
+    },
+    {
+      "ticker": "6857",
+      "company": "アドバンテスト",
+      "new_topics": [],
+      "continuing_topics": [],
+      "disappeared_topics": [
+        "AI需要"
       ]
     }
   ]
