@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T00:45:25.909593+00:00",
+  "updated_at": "2026-09-29T09:19:57.730978+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -316,8 +316,7 @@
       "new_topics": [],
       "continuing_topics": [],
       "disappeared_topics": [
-        "AI需要",
-        "メモリ投資回復"
+        "AI需要"
       ]
     },
     {
