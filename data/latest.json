@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T12:08:31.292647+00:00",
+  "updated_at": "2026-10-01T19:59:39.903745+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -309,15 +309,5 @@
       "summary": "現地代理店ヒアリングで中国向け引き合いの鈍化を確認したとの声を紹介。"
     }
   ],
-  "topic_changes": [
-    {
-      "ticker": "8035",
-      "company": "東京エレクトロン",
-      "new_topics": [],
-      "continuing_topics": [],
-      "disappeared_topics": [
-        "AI需要"
-      ]
-    }
-  ]
+  "topic_changes": []
 }
