@@ -1,15 +1,11 @@
 {
-  "updated_at": "2026-10-04T03:34:33.593388+00:00",
+  "updated_at": "2026-10-04T11:35:52.488106+00:00",
   "window_days": 30,
   "tickers": [
     {
       "ticker": "8035",
       "company": "東京エレクトロン",
       "topics": [
-        {
-          "topic": "中国需要減速",
-          "count": 2
-        },
         {
           "topic": "AI需要",
           "count": 1
@@ -28,6 +24,10 @@
         },
         {
           "topic": "中国規制",
+          "count": 1
+        },
+        {
+          "topic": "中国需要減速",
           "count": 1
         }
       ]
@@ -89,13 +89,6 @@
       "total_count": 2
     },
     {
-      "topic": "中国需要減速",
-      "tickers": [
-        "8035"
-      ],
-      "total_count": 2
-    },
-    {
       "topic": "メモリ投資回復",
       "tickers": [
         "8035"
@@ -136,6 +129,13 @@
         "7203"
       ],
       "total_count": 1
+    },
+    {
+      "topic": "中国需要減速",
+      "tickers": [
+        "8035"
+      ],
+      "total_count": 1
     }
   ],
   "authors": [
@@ -155,11 +155,6 @@
       "post_count": 2
     },
     {
-      "handle": "@china_policy_watch",
-      "display_name": "中国政策ウォッチ",
-      "post_count": 2
-    },
-    {
       "handle": "@ate_analyst",
       "display_name": "ATEアナリスト",
       "post_count": 1
@@ -172,6 +167,11 @@
     {
       "handle": "@sbg_watcher",
       "display_name": "SBGウォッチャー",
+      "post_count": 1
+    },
+    {
+      "handle": "@china_policy_watch",
+      "display_name": "中国政策ウォッチ",
       "post_count": 1
     }
   ],
@@ -296,17 +296,6 @@
       "topic": "中国需要減速",
       "stance": "懸念",
       "summary": "中国国内の設備投資需要の弱さが下期の受注ペースに影響する可能性を指摘。"
-    },
-    {
-      "handle": "@china_policy_watch",
-      "display_name": "中国政策ウォッチ",
-      "ticker": "8035",
-      "company": "東京エレクトロン",
-      "post_created_at": "2026-09-04T16:00:00+09:00",
-      "source_url": "https://x.com/china_policy_watch/status/1007",
-      "topic": "中国需要減速",
-      "stance": "事実言及",
-      "summary": "現地代理店ヒアリングで中国向け引き合いの鈍化を確認したとの声を紹介。"
     }
   ],
   "topic_changes": []
