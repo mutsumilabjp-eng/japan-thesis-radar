@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T21:44:52.335848+00:00",
+  "updated_at": "2026-10-06T04:03:35.739672+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -24,10 +24,6 @@
         },
         {
           "topic": "中国規制",
-          "count": 1
-        },
-        {
-          "topic": "中国需要減速",
           "count": 1
         }
       ]
@@ -129,21 +125,9 @@
         "7203"
       ],
       "total_count": 1
-    },
-    {
-      "topic": "中国需要減速",
-      "tickers": [
-        "8035"
-      ],
-      "total_count": 1
     }
   ],
   "authors": [
-    {
-      "handle": "@macro_desk",
-      "display_name": "マクロデスク",
-      "post_count": 3
-    },
     {
       "handle": "@chip_watcher_jp",
       "display_name": "半導体ウォッチャー",
@@ -152,6 +136,11 @@
     {
       "handle": "@auto_sector_jp",
       "display_name": "自動車セクターJP",
+      "post_count": 2
+    },
+    {
+      "handle": "@macro_desk",
+      "display_name": "マクロデスク",
       "post_count": 2
     },
     {
@@ -285,17 +274,6 @@
       "topic": "為替感応度",
       "stance": "事実言及",
       "summary": "円高方向への為替変動時の減益インパクトを試算したスレッドを紹介。"
-    },
-    {
-      "handle": "@macro_desk",
-      "display_name": "マクロデスク",
-      "ticker": "8035",
-      "company": "東京エレクトロン",
-      "post_created_at": "2026-09-06T11:00:00+09:00",
-      "source_url": "https://x.com/macro_desk/status/1006",
-      "topic": "中国需要減速",
-      "stance": "懸念",
-      "summary": "中国国内の設備投資需要の弱さが下期の受注ペースに影響する可能性を指摘。"
     }
   ],
   "topic_changes": []
