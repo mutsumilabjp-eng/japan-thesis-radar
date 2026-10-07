@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T00:16:00.391918+00:00",
+  "updated_at": "2026-10-07T09:35:12.279786+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -48,10 +48,6 @@
       "topics": [
         {
           "topic": "北米販売好調",
-          "count": 1
-        },
-        {
-          "topic": "為替感応度",
           "count": 1
         }
       ]
@@ -118,24 +114,12 @@
         "8035"
       ],
       "total_count": 1
-    },
-    {
-      "topic": "為替感応度",
-      "tickers": [
-        "7203"
-      ],
-      "total_count": 1
     }
   ],
   "authors": [
     {
       "handle": "@chip_watcher_jp",
       "display_name": "半導体ウォッチャー",
-      "post_count": 2
-    },
-    {
-      "handle": "@auto_sector_jp",
-      "display_name": "自動車セクターJP",
       "post_count": 2
     },
     {
@@ -151,6 +135,11 @@
     {
       "handle": "@semiconjp",
       "display_name": "セミコンJP",
+      "post_count": 1
+    },
+    {
+      "handle": "@auto_sector_jp",
+      "display_name": "自動車セクターJP",
       "post_count": 1
     },
     {
@@ -263,17 +252,6 @@
       "topic": "中国規制",
       "stance": "懸念",
       "summary": "対中輸出規制の追加措置検討との報道を受け、中国向け売上比率への注視を指摘。"
-    },
-    {
-      "handle": "@auto_sector_jp",
-      "display_name": "自動車セクターJP",
-      "ticker": "7203",
-      "company": "トヨタ自動車",
-      "post_created_at": "2026-09-07T10:00:00+09:00",
-      "source_url": "https://x.com/auto_sector_jp/status/4002",
-      "topic": "為替感応度",
-      "stance": "事実言及",
-      "summary": "円高方向への為替変動時の減益インパクトを試算したスレッドを紹介。"
     }
   ],
   "topic_changes": []
