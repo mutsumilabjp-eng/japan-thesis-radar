@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T00:37:42.963614+00:00",
+  "updated_at": "2026-10-08T09:45:30.534536+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -20,10 +20,6 @@
         },
         {
           "topic": "バリュエーション",
-          "count": 1
-        },
-        {
-          "topic": "中国規制",
           "count": 1
         }
       ]
@@ -107,13 +103,6 @@
         "9984"
       ],
       "total_count": 1
-    },
-    {
-      "topic": "中国規制",
-      "tickers": [
-        "8035"
-      ],
-      "total_count": 1
     }
   ],
   "authors": [
@@ -145,11 +134,6 @@
     {
       "handle": "@sbg_watcher",
       "display_name": "SBGウォッチャー",
-      "post_count": 1
-    },
-    {
-      "handle": "@china_policy_watch",
-      "display_name": "中国政策ウォッチ",
       "post_count": 1
     }
   ],
@@ -241,17 +225,6 @@
       "topic": "NAVディスカウント",
       "stance": "追い風",
       "summary": "保有株含み益拡大によるNAVディスカウント縮小の試算を紹介。"
-    },
-    {
-      "handle": "@china_policy_watch",
-      "display_name": "中国政策ウォッチ",
-      "ticker": "8035",
-      "company": "東京エレクトロン",
-      "post_created_at": "2026-09-08T15:00:00+09:00",
-      "source_url": "https://x.com/china_policy_watch/status/1005",
-      "topic": "中国規制",
-      "stance": "懸念",
-      "summary": "対中輸出規制の追加措置検討との報道を受け、中国向け売上比率への注視を指摘。"
     }
   ],
   "topic_changes": []
