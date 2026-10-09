@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T00:52:52.118650+00:00",
+  "updated_at": "2026-10-09T09:50:42.006840+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -47,16 +47,6 @@
           "count": 1
         }
       ]
-    },
-    {
-      "ticker": "9984",
-      "company": "ソフトバンクグループ",
-      "topics": [
-        {
-          "topic": "NAVディスカウント",
-          "count": 1
-        }
-      ]
     }
   ],
   "topics": [
@@ -96,13 +86,6 @@
         "8035"
       ],
       "total_count": 1
-    },
-    {
-      "topic": "NAVディスカウント",
-      "tickers": [
-        "9984"
-      ],
-      "total_count": 1
     }
   ],
   "authors": [
@@ -129,11 +112,6 @@
     {
       "handle": "@auto_sector_jp",
       "display_name": "自動車セクターJP",
-      "post_count": 1
-    },
-    {
-      "handle": "@sbg_watcher",
-      "display_name": "SBGウォッチャー",
       "post_count": 1
     }
   ],
@@ -214,17 +192,6 @@
       "topic": "バリュエーション",
       "stance": "懸念",
       "summary": "現在のPERは過去5年レンジ上限近辺で、短期的な調整リスクを指摘。"
-    },
-    {
-      "handle": "@sbg_watcher",
-      "display_name": "SBGウォッチャー",
-      "ticker": "9984",
-      "company": "ソフトバンクグループ",
-      "post_created_at": "2026-09-09T13:00:00+09:00",
-      "source_url": "https://x.com/sbg_watcher/status/3001",
-      "topic": "NAVディスカウント",
-      "stance": "追い風",
-      "summary": "保有株含み益拡大によるNAVディスカウント縮小の試算を紹介。"
     }
   ],
   "topic_changes": []
