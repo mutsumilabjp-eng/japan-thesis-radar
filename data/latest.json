@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T03:31:16.385448+00:00",
+  "updated_at": "2026-10-12T14:00:11.212760+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -26,10 +26,6 @@
       "topics": [
         {
           "topic": "AI需要",
-          "count": 1
-        },
-        {
-          "topic": "バリュエーション",
           "count": 1
         }
       ]
@@ -74,13 +70,6 @@
         "8035"
       ],
       "total_count": 1
-    },
-    {
-      "topic": "バリュエーション",
-      "tickers": [
-        "6857"
-      ],
-      "total_count": 1
     }
   ],
   "authors": [
@@ -102,11 +91,6 @@
     {
       "handle": "@auto_sector_jp",
       "display_name": "自動車セクターJP",
-      "post_count": 1
-    },
-    {
-      "handle": "@macro_desk",
-      "display_name": "マクロデスク",
       "post_count": 1
     }
   ],
@@ -165,17 +149,6 @@
       "topic": "受注回復",
       "stance": "追い風",
       "summary": "受注残の消化ペースが想定より速く、来期のバックログ懸念がやや後退。"
-    },
-    {
-      "handle": "@macro_desk",
-      "display_name": "マクロデスク",
-      "ticker": "6857",
-      "company": "アドバンテスト",
-      "post_created_at": "2026-09-12T14:00:00+09:00",
-      "source_url": "https://x.com/macro_desk/status/2002",
-      "topic": "バリュエーション",
-      "stance": "懸念",
-      "summary": "株価が強い業績期待を織り込み済みで、割高感を指摘する声を紹介。"
     }
   ],
   "topic_changes": []
