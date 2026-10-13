@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T04:45:34.495473+00:00",
+  "updated_at": "2026-10-13T13:15:40.798470+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -12,10 +12,6 @@
         },
         {
           "topic": "メモリ投資回復",
-          "count": 1
-        },
-        {
-          "topic": "受注回復",
           "count": 1
         }
       ]
@@ -63,20 +59,13 @@
         "7203"
       ],
       "total_count": 1
-    },
-    {
-      "topic": "受注回復",
-      "tickers": [
-        "8035"
-      ],
-      "total_count": 1
     }
   ],
   "authors": [
     {
       "handle": "@chip_watcher_jp",
       "display_name": "半導体ウォッチャー",
-      "post_count": 2
+      "post_count": 1
     },
     {
       "handle": "@ate_analyst",
@@ -138,17 +127,6 @@
       "topic": "北米販売好調",
       "stance": "追い風",
       "summary": "北米販売台数が市場予想を上回り、ハイブリッド比率の高さが寄与しているとの分析を紹介。"
-    },
-    {
-      "handle": "@chip_watcher_jp",
-      "display_name": "半導体ウォッチャー",
-      "ticker": "8035",
-      "company": "東京エレクトロン",
-      "post_created_at": "2026-09-13T18:00:00+09:00",
-      "source_url": "https://x.com/chip_watcher_jp/status/1003",
-      "topic": "受注回復",
-      "stance": "追い風",
-      "summary": "受注残の消化ペースが想定より速く、来期のバックログ懸念がやや後退。"
     }
   ],
   "topic_changes": []
