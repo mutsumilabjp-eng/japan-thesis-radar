@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:02:45.211551+00:00",
+  "updated_at": "2026-10-14T08:15:01.338373+00:00",
   "window_days": 30,
   "tickers": [
     {
@@ -25,16 +25,6 @@
           "count": 1
         }
       ]
-    },
-    {
-      "ticker": "7203",
-      "company": "トヨタ自動車",
-      "topics": [
-        {
-          "topic": "北米販売好調",
-          "count": 1
-        }
-      ]
     }
   ],
   "topics": [
@@ -50,13 +40,6 @@
       "topic": "メモリ投資回復",
       "tickers": [
         "8035"
-      ],
-      "total_count": 1
-    },
-    {
-      "topic": "北米販売好調",
-      "tickers": [
-        "7203"
       ],
       "total_count": 1
     }
@@ -75,11 +58,6 @@
     {
       "handle": "@semiconjp",
       "display_name": "セミコンJP",
-      "post_count": 1
-    },
-    {
-      "handle": "@auto_sector_jp",
-      "display_name": "自動車セクターJP",
       "post_count": 1
     }
   ],
@@ -116,17 +94,6 @@
       "topic": "メモリ投資回復",
       "stance": "追い風",
       "summary": "メモリメーカー各社の投資計画上振れがTELにも追い風になる可能性を指摘。"
-    },
-    {
-      "handle": "@auto_sector_jp",
-      "display_name": "自動車セクターJP",
-      "ticker": "7203",
-      "company": "トヨタ自動車",
-      "post_created_at": "2026-09-14T17:00:00+09:00",
-      "source_url": "https://x.com/auto_sector_jp/status/4001",
-      "topic": "北米販売好調",
-      "stance": "追い風",
-      "summary": "北米販売台数が市場予想を上回り、ハイブリッド比率の高さが寄与しているとの分析を紹介。"
     }
   ],
   "topic_changes": []
