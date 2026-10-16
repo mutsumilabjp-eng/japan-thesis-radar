@@ -1,20 +1,10 @@
 {
-  "updated_at": "2026-10-15T23:28:12.629532+00:00",
+  "updated_at": "2026-10-16T02:27:45.964323+00:00",
   "window_days": 30,
   "tickers": [
     {
       "ticker": "8035",
       "company": "東京エレクトロン",
-      "topics": [
-        {
-          "topic": "AI需要",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "ticker": "6857",
-      "company": "アドバンテスト",
       "topics": [
         {
           "topic": "AI需要",
@@ -27,21 +17,15 @@
     {
       "topic": "AI需要",
       "tickers": [
-        "6857",
         "8035"
       ],
-      "total_count": 2
+      "total_count": 1
     }
   ],
   "authors": [
     {
       "handle": "@chip_watcher_jp",
       "display_name": "半導体ウォッチャー",
-      "post_count": 1
-    },
-    {
-      "handle": "@ate_analyst",
-      "display_name": "ATEアナリスト",
       "post_count": 1
     }
   ],
@@ -56,17 +40,6 @@
       "topic": "AI需要",
       "stance": "追い風",
       "summary": "決算資料でAI向け先端ロジック需要への言及が強く、設備投資計画の上方修正余地に言及。"
-    },
-    {
-      "handle": "@ate_analyst",
-      "display_name": "ATEアナリスト",
-      "ticker": "6857",
-      "company": "アドバンテスト",
-      "post_created_at": "2026-09-16T09:30:00+09:00",
-      "source_url": "https://x.com/ate_analyst/status/2001",
-      "topic": "AI需要",
-      "stance": "追い風",
-      "summary": "AI半導体テスタ需要の強さから受注環境は良好との見方を紹介。"
     }
   ],
   "topic_changes": []
